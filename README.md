@@ -49,7 +49,7 @@ HTML: For building the webpage structure.
 
 CSS: For styling and layout.
 
-SCSS: Modular approach to styling (if implemented in the project).
+SCSS: Modular approach to styling.
 
 📖 How to Use
 
