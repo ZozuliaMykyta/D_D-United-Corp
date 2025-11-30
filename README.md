@@ -1,62 +1,37 @@
-📋 Overview
-This project represents a corporate website that highlights the company's capabilities in freight transportation, career opportunities, leasing and financing options, and direct client interaction through contact forms and an interactive map. Each page is tailored to provide detailed insights into specific services and company operations.
+# 🚚 D_D-United-Corp
 
-🚀 Key Features
+**D_D-United-Corp** is a corporate website for a freight transportation company, built with **HTML**, **CSS**, and **SCSS**. It highlights the company's services, career opportunities, and provides direct client interaction.
 
-Multi-Page Structure: Includes sections like "Home," "About," "Services," "News," "Careers," and "Contact."
+---
 
-User-Friendly Navigation: Easily accessible menu for smooth transitions between sections.
+## 🚀 Features
 
-Interactive Elements: Functional contact forms and an embedded map.
+- 🏢 **Multi-Page Structure**: Includes sections like "Home," "About," "Services," "News," "Careers," and "Contact."
+- 🗺️ **Interactive Elements**: Functional contact forms and an embedded map for user engagement.
+- 🚛 **Detailed Services**: Comprehensive descriptions of transportation methods (Flatbed, Dry Van, LTL/FTL).
+- ✨ **Modular Styling**: Uses SCSS for a more organized and maintainable stylesheet.
+- 📱 **User-Friendly Design**: Clean navigation and structure for a smooth user experience.
 
-Detailed Services: Provides comprehensive descriptions of various transportation methods, such as:
+---
 
-Flatbed
+## 🔧 Tech Stack
 
-Dry Van
+| Technology | Purpose |
+|------------|-----------------------------------|
+| HTML | Page structure & content |
+| SCSS | Advanced styling & variables |
+| CSS | Final styling and layout |
+| JavaScript | Interactivity (contact forms, map) |
 
-Long Haul and Short Haul services
+---
 
-Less-than-Truckload (LTL) and Full Truckload (FTL) shipping
+## 📥 How to Use
 
-High-value and time-sensitive freight transportation
-
-📂 Project Structure
-
-index.html: The homepage introduces the company and its services.
-
-css/: Contains styling files for the layout, forms, and navigational elements.
-
-img/: Houses visual assets like logos and transport-related images.
-
-js/: JavaScript scripts (if applicable) for enhanced interactivity.
-
-Sections:
-
-"About" for company background
-
-"Transportation Services" for detailed freight options
-
-"News" for updates
-
-"Contact" with a form and map
-
-"Careers" for job opportunities
-
-🛠️ Technologies Used
-
-HTML: For building the webpage structure.
-
-CSS: For styling and layout.
-
-SCSS: Modular approach to styling.
-
-📖 How to Use
-
-Clone the repository:
-
-Copy code
-
+### 1. Clone the repository
+```bash
 git clone https://github.com/ZozuliaMykyta/D_D-United-Corp.git
+cd D_D-United-Corp
+```
 
-Open the index.html file in your browser to explore the website.
+### 2. View the project
+Open the `index.html` file in your web browser to view the site.
