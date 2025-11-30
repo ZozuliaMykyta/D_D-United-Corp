@@ -6,23 +6,31 @@
   border: 0;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
-:focus, :active {
+:focus,
+:active {
   outline: none;
 }
 
-a:focus, a:active {
+a:focus,
+a:active {
   outline: none;
 }
 
-nav, footer, header, aside {
+nav,
+footer,
+header,
+aside {
   display: block;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
   font-size: 100%;
@@ -33,7 +41,9 @@ html, body {
   -webkit-text-size-adjust: 100%;
 }
 
-input, button, textarea {
+input,
+button,
+textarea {
   font-family: inherit;
 }
 
@@ -50,7 +60,8 @@ button::-moz-focus-inner {
   border: 0;
 }
 
-a, a:visited {
+a,
+a:visited {
   text-decoration: none;
 }
 
@@ -66,13 +77,18 @@ img {
   vertical-align: top;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-size: inherit;
   font-weight: inherit;
 }
 
 :root {
-  --red: #6D010C;
+  --red: #6d010c;
   --white: #fff;
   --gray: #737373;
   --hover: #94000f;
@@ -101,7 +117,7 @@ body {
 }
 
 .main__bg {
-  background: url("../img/main-bg.jpg") 0 0/cover no-repeat;
+  background: url("../img/main-bg.webp") 0 0 / cover no-repeat;
   padding-bottom: 25px;
 }
 
@@ -179,12 +195,12 @@ body {
 }
 .header__sub-item {
   padding: 13px 20px;
-  background-color: #F0EFED;
+  background-color: #f0efed;
   width: 200px;
   transition: 0.4s ease;
 }
 .header__sub-item:hover {
-  background-color: #E4E3E2;
+  background-color: #e4e3e2;
 }
 .header__sub-link {
   font-size: 13px;
@@ -237,8 +253,8 @@ body {
 .main__input {
   width: 320px;
   height: 56px;
-  background: #F8F8F8;
-  box-shadow: inset 0px 4.11676px 16.467px #EEEEEE;
+  background: #f8f8f8;
+  box-shadow: inset 0px 4.11676px 16.467px #eeeeee;
   border-radius: 5px;
   padding: 17px 30px;
 }
@@ -298,8 +314,8 @@ body {
   width: 35px;
   height: 21px;
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   background-color: #b4b4b4;
   outline: none;
   border-radius: 25px;
@@ -357,7 +373,7 @@ body {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .service__icon {
   position: absolute;
@@ -411,7 +427,7 @@ body {
 }
 
 .offer {
-  background: url("../img/BG-03.jpg") 0 0/cover no-repeat;
+  background: url("../img/BG-03.jpg") 0 0 / cover no-repeat;
   background-position: left;
 }
 .offer__container {
@@ -462,13 +478,13 @@ body {
 .offer__link {
   font-size: 13px;
   line-height: 150%;
-  color: #276DD7;
+  color: #276dd7;
   display: inline-block;
   margin-top: 15px;
 }
 
 .about {
-  background: url("../img/BG-04.jpg") 0 0/cover no-repeat;
+  background: url("../img/BG-04.jpg") 0 0 / cover no-repeat;
   background-position: right;
 }
 .about__container {
@@ -520,7 +536,7 @@ body {
 .about__span {
   font-size: 13px;
   line-height: 150%;
-  color: #A8A8A8;
+  color: #a8a8a8;
   display: inline-block;
   margin-top: 11px;
   margin-bottom: 37px;
@@ -613,7 +629,7 @@ body {
   font-weight: 500;
   font-size: 24px;
   line-height: 120%;
-  color: #A60012;
+  color: #a60012;
   margin-bottom: 18px;
 }
 @media (max-width: 1024px) {
@@ -626,7 +642,7 @@ body {
   font-style: italic;
   font-size: 13px;
   line-height: 170%;
-  color: #9B9B9B;
+  color: #9b9b9b;
   max-width: 330px;
 }
 @media (max-width: 1024px) {
@@ -661,10 +677,10 @@ body {
   font-style: italic;
   font-size: 13px;
   line-height: 155%;
-  color: #9B9B9B;
+  color: #9b9b9b;
 }
 .footer__questions-link {
-  color: #276DD7;
+  color: #276dd7;
 }
 .footer__geo-block {
   position: relative;
@@ -691,14 +707,14 @@ body {
   font-style: italic;
   font-size: 13px;
   line-height: 170%;
-  color: #9B9B9B;
+  color: #9b9b9b;
 }
 .footer__geo-text span {
-  color: #276DD7;
+  color: #276dd7;
 }
 
 .footer-bottom__content {
-  border-top: 1px solid #3B3B3B;
+  border-top: 1px solid #3b3b3b;
 }
 .footer-bottom__container {
   padding-top: 8px;
@@ -711,7 +727,7 @@ body {
   color: #999999;
 }
 .footer-bottom__text span {
-  color: #276DD7;
+  color: #276dd7;
 }
 
 @media (max-width: 1300px) {
